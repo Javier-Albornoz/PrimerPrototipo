@@ -1,0 +1,67 @@
+
+@import '../base/displays';
+@import '../base/listaColores';
+@import '../base/mixins';
+
+.Galeria-texto-fotos {display: $display;
+    background-color:nth( $listaColores, 2) ;
+    justify-content: $aling;
+           
+          .Galeria-texto {display: $display;
+                           justify-content: $aling;
+                           flex-direction: column;}
+}      
+
+
+img {width: 100%;}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  color: nth( $listaColores,4 );
+}     
+.tituloBlog {
+  color: nth( $listaColores , 3 );
+}          
+ 
+ .video { 
+          display: $display;
+        
+          align-items: $aling;
+          flex-direction: column;   
+          background-color:nth( $listaColores, 4);
+          @include justify(center);
+         }
+ iframe {
+   width: 720px;
+   height: 460px;
+ }
+ 
+ .Descripcion, .blog, .items {
+     font-family: 'Staatliches', cursive;
+     color: nth( $listaColores, 1) ;
+      }
+ 
+ .Explicacion {display: $display;
+               align-items: $aling;
+                color: nth( $listaColores ,3);}
+ .quienesSomos {color: nth( $listaColores ,3);
+                text-align: $aling;
+               } 
+ .Nosotros {
+    display: $display;
+    flex-direction: column;
+    height: auto;
+    padding-top: 80px;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+ }   
+       
+ .textoNosotros {color: nth($listaColores, 4 );
+                 font-family: 'Staatliches', cursive;
+                padding: 100px;
+                height: 600px;
+                 }
+ .textoNosotros:hover {
+ @include transform;
+ }
+   

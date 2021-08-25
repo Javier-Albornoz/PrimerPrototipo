@@ -1,0 +1,15 @@
+@import '../base/displays';
+@import '../base/listaColores';
+/*Footer*/
+.foot {display: $display;
+    justify-content: $aling;
+    padding: 20px 0;
+    background-color:nth( $listaColores,3 );}         
+.display2 {  width: 900px;
+         display: $display;
+         justify-content: space-around;}
+
+
+
+
+/*Fin footer*/

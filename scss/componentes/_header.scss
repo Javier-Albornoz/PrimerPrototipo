@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import '../base/listaColores';
+@import '../base/displays';
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Inicio header*/
+a {
+    color: nth( $listaColores,1);
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header {background-color: nth( $listaColores, 2);
+        position: sticky;
+        top: 0;
+        z-index: 2;
+
+         ul ul li {   
+            width: $ancho + 20%;
+            background-color:nth($listaColores,2);
+         }
+}        
+        
+
+body {background-color: nth( $listaColores, 4);}
+/*Fin header*/

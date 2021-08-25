@@ -1,0 +1,37 @@
+
+@import '../base/displays';
+
+/*seccion contacto*/  
+.contactanos {
+background-image: url(../images/3.jpg);
+height: 900px;
+}
+          
+
+.contacto-descripcion{
+padding: 30px;
+.contanos{
+      color: nth( $listaColores,3);
+}
+}
+
+.formulario {
+      background-color:nth( $listaColores,3);
+      opacity: 80%;
+}
+.tituloContacto {
+display: $display;
+justify-content: $aling;
+padding: 30px;
+
+.contacto { color:darken($color: #ff0000, $amount: 25);
+            font-family: 'Staatliches', cursive}
+}
+.items{
+display: $display;
+flex-direction: column;
+align-items: $aling;
+background-color: nth( $listaColores, 2); 
+}
+
+/*fin seccion contacto*/

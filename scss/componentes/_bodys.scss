@@ -25,7 +25,7 @@ h1 {
  
  .video { 
           display: $display;
-        
+          padding: 3rem;
           align-items: $aling;
           flex-direction: column;   
           background-color:nth( $listaColores, 4);

@@ -55,6 +55,7 @@ h1 {
 
 .video {
   display: flex;
+  padding: 3rem;
   align-items: center;
   flex-direction: column;
   background-color: black;

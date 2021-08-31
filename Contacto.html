@@ -84,20 +84,18 @@
 
       
     </div>
-    <form class="formulario container">
+    <form method="POST" action="enviar2.php" class="formulario container">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@gmail.com">
-        <div id="emailHelp" class="form-text">Nunca compartiremos su Email con nadie más.</div>
+        <label for="InputEmail1" class="form-label">Dirección de Email</label>
+        <input type="email" class="form-control" name="email" id="InputEmail1"  placeholder="ejemplo@gmail.com">
       </div>
       <div class="mb-3">
-        <label for="text" class="form-text">Nombre</label>
-        <input class="form-control" placeholder="Tony Stark" >
+        <label for="Nombre" class="form-label container">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" placeholder="tu nombre va aquí" >
       </div>
       <div class="mb-3">
-        <label for="text" class="form-text">Asunto</label>
-        <input  class="form-control" placeholder="proyecto,entrega final de facultad,etc" >
-        <div id="emailHelp" class="form-text">Que tipo de proyecto se trata.</div>
+        <label for="texto-mensaje" class="form-label container">Mensaje</label>
+        <textarea name="asunto" id="texto-mensaje" cols="100" rows="10"></textarea>
       </div>  
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>

@@ -11,7 +11,13 @@
                            justify-content: $aling;
                            flex-direction: column;}
 }      
-
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-right:0;
+  padding-left:0;
+  }
+  .carousel-inner{
+    height: 830px;
+   }
 
 img {width: 100%;}
 
@@ -64,4 +70,16 @@ h1 {
  .textoNosotros:hover {
  @include transform;
  }
-   
+
+ @media only screen and (max-width: 320px) {
+  .carousel-inner{
+    height: auto;}
+ }
+ @media only screen and (min-width: 321px) and (max-width: 768px) {
+  .carousel-inner{
+    height: auto;}
+ }
+ @media only screen and (min-width: 769px)  and (max-width: 1780px) {
+  .carousel-inner{
+    height: auto;}
+ }

@@ -17,11 +17,10 @@ padding: 30px;
 
 .formulario {
       background-color:nth( $listaColores,3);
-      opacity: 80%; 
-      padding:20px ;}
-      
-textarea {
-      width: 100%;}
+      opacity: 80%;}
+
+
+
 .tituloContacto {
 display: $display;
 justify-content: $aling;

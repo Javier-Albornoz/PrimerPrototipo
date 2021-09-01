@@ -160,7 +160,8 @@ iframe {
   margin-top: 5px;
   cursor: pointer;
 }
-.pregunta.pregunta:hover .respuesta {
+
+.pregunta:hover .respuesta {
   max-height: 500px;
   transition: all 1s;
 }

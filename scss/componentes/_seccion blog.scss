@@ -28,12 +28,10 @@
      margin-bottom: 5px;
      margin-top: 5px;
      cursor: pointer;
-
-     &.pregunta:hover .respuesta {
-         max-height: 500px;
-         transition: all 1s;
-     }
- }
+  }
+  .pregunta:hover .respuesta {
+    max-height: 500px;
+    transition: all 1s;}
  .respuesta {
     background-color: #303030;
     margin-bottom: 5px;

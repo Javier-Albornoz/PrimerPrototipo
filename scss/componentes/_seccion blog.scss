@@ -52,6 +52,9 @@
     justify-content: space-around;}
 
     @media only screen and (max-width:320px) {
+      .contPreguntas {
+          width: auto;
+      }
       body {background-color: nth( $listaColores,4 )};
       .containerFotos {
           display: grid;
@@ -77,6 +80,9 @@
    }
  
   @media only screen and (min-width:321px) and (max-width:768px){
+      .contPreguntas{
+          width: auto;
+      }
       body {background-color:nth( $listaColores,4 );}
       .containerFotos {
           display: grid;

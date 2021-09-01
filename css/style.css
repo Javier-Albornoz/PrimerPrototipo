@@ -254,7 +254,8 @@ iframe {
   opacity: 80%;
   padding: 20px;
 }
-.formulario textarea {
+
+textarea {
   width: 100%;
 }
 

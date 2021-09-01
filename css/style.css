@@ -252,6 +252,10 @@ iframe {
 .formulario {
   background-color: white;
   opacity: 80%;
+  padding: 20px;
+}
+.formulario textarea {
+  width: 100%;
 }
 
 .tituloContacto {

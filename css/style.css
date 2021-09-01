@@ -142,6 +142,45 @@ iframe {
   justify-content: space-around;
 }
 
+.contPreguntas {
+  width: 700px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.pregunta, .respuesta {
+  text-align: left;
+  color: white;
+}
+
+.pregunta {
+  background-color: #303030;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.pregunta.pregunta:hover .respuesta {
+  max-height: 500px;
+  transition: all 1s;
+}
+
+.respuesta {
+  background-color: #303030;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  max-height: 0px;
+  overflow: hidden;
+}
+
+.pregunta p, .respuesta p {
+  padding-left: 20px;
+}
+
+.respuesta hr {
+  border: 1px solid #777777;
+}
+
 .contenedorLinks {
   display: grid;
   grid-template-columns: auto auto auto;

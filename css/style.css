@@ -309,6 +309,15 @@ iframe {
   transform: scale(1.1);
 }
 
+.h2ext {
+  color: #740000;
+  font-family: "Staatliches", cursive;
+}
+.h2ext:hover {
+  color: white;
+  transition: all 2s ease;
+}
+
 .overlay {
   position: fixed;
   left: 0;
@@ -328,7 +337,7 @@ iframe {
 .overlay .slideshow {
   width: 90%;
   height: 90%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.5);
   color: #000;
   position: relative;
   display: flex;
@@ -377,6 +386,7 @@ iframe {
   transform: translateY(-50%);
   cursor: pointer;
   color: #740000;
+  opacity: 60%;
 }
 
 .botones:hover > i {

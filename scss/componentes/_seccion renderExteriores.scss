@@ -24,6 +24,15 @@
     }
 }
 
+.h2ext {
+    color: rgb(116, 0, 0);
+    font-family: 'Staatliches', cursive;
+    &:hover {
+        color: white;
+        transition: all 2s ease;
+            }
+}
+
 .overlay {
     position: fixed;
     left: 0;
@@ -42,7 +51,7 @@
 .overlay .slideshow{
     width: 90%;
     height: 90%;
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .5);
     color: #000;
     position: relative;
     display: flex;
@@ -86,7 +95,8 @@
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    color: rgb(116, 0, 0),;
+    color: rgb(116, 0, 0);
+    opacity: 60%;
 }
 .botones:hover > i{
     transform: scale(1.1);

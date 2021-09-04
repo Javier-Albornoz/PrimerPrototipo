@@ -18,9 +18,12 @@
     <link rel="shortcut icon" href="iconos/logo_2_c.ico" type="image/x-icon">
 <!--Bootstrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+    <!--iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
    <!--CSS--> 
     <link rel="stylesheet" href="css/style.css">
+   <!--JS-->
+   <script src="js/script2.js" defer></script>
    
     <title>Renders Interiores</title>
        
@@ -39,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="index.html#quienesSomos">Quienes Somos</a>
@@ -54,7 +57,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Blog.html">Blog</a>
+                  <a class="nav-link" href="Q&A.html">Q & A </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="Contacto.html">Contacto</a>
@@ -67,19 +70,57 @@
 
       </header>
          <!--fin header-->
-<section>
-  <div><img src="images/a.webp" alt="render pileta patio interno"></div>
-  <div><img src="images/b.webp" alt="render pileta patio interno2"></div>
-  <div><img src="images/C.webp" alt="render oficina soleado"></div>
-  <div><img src="images/D.webp" alt="render oficina noche"></div>
-  <div><img src="images/e.webp" alt="render pileta con capsula protectora"></div>
-  <div><img src="images/g.webp" alt="render plano en 3D"></div>
-  <div><img src="images/h.webp" alt="render axonometrico plano en 3D"></div>
-  <div><img src="images/i.webp" alt="render cocina interior"></div>
-  <div><img src="images/j.webp" alt="render cocina de restorant"></div>
-  <div><img src="images/k.webp" alt="render cocina de restorant2"></div>
-  <div><img src="images/l.webp" alt="render cocina restorant3"></div>
-</section>
+                  <!--inicio galeria-->
+                  <div class="overlay">
+                    <div class="slideshow">
+                      <span class="btn_cerrar">&times;</span>
+                      <div class="botones adelante">
+                        <i class="mdi mdi-arrow-right-circle-outline"></i>
+                      </div>
+                      <div class="botones atras">
+                        <i class="mdi mdi-arrow-left-circle-outline"></i>
+                      </div>
+                       <img src="" alt="" id="img_slideshow">
+                    </div>
+                  </div>
+                  <h2 class="h2ext text-center pt-3">Renders Interiores</h2>
+                  
+                  <section class="galeria">
+                    <div class="columna">
+                     <img src="images/a.webp" alt="render pileta patio interno" data-img-mostrar="0">
+                     <img src="images/b.webp" alt="render pileta patio interno2" data-img-mostrar="1">
+                     <img src="images/C.webp" alt="render pileta interna cubierta" data-img-mostrar="2">
+                     <img src="images/D.webp" alt="render oficina noche" data-img-mostrar="3">
+                    </div>
+                    <div class="columna">
+                     <img src="images/e.webp" alt="render oficina dia" data-img-mostrar="4">
+                     <img src="images/f.webp" alt="pileta interna conjunto" data-img-mostrar="5">
+                     <img src="images/g.webp" alt="render plano top consultorios" data-img-mostrar="6">
+                     <img src="images/h.webp" alt="render axonometrica consultorios" data-img-mostrar="7">
+                    </div>
+                    <div class="columna">
+                     <img src="images/i.webp" alt="render cocina de restorant" data-img-mostrar="8">
+                     <img src="images/j.webp" alt="render cocina de restorant2" data-img-mostrar="9">
+                     <img src="images/k.webp" alt="render cocina restorant3" data-img-mostrar="10">
+                     <img src="images/l.webp" alt="render cocina restorant con pantalla vidriada" data-img-mostrar="11">
+                    </div>
+                    <div class="columna">
+                     <img src="images/m.webp" alt="render duplex " data-img-mostrar="12">
+                     <img src="images/n.webp" alt="render duplex vista top" data-img-mostrar="13">
+                     <img src="images/o.webp" alt="render duplex axonometrica" data-img-mostrar="14">
+                     <img src="images/p.webp" alt="render pileta techada crital" data-img-mostrar="15">
+                    </div>
+                    <div class="columna">
+                     <img src="images/q.webp" alt="render interior hall" data-img-mostrar="16">
+                     <img src="images/r.webp" alt="render interior living" data-img-mostrar="17">
+                     <img src="images/s.webp" alt="render interior comedor" data-img-mostrar="18">
+                     <img src="images/t.webp" alt="render interior final" data-img-mostrar="19">
+                    </div>
+         
+                  </section>
+         
+         <!--fin galeria-->
+
 <!--Inicio footer-->
         <footer class="foot">
           <ul class="display2">

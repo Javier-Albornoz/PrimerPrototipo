@@ -66,10 +66,12 @@ h1 {
                  font-family: 'Staatliches', cursive;
                 padding: 100px;
                 height: 600px;
+
+                &:hover{
+                  @include transform;
+                }
                  }
- .textoNosotros:hover {
- @include transform;
- }
+
 
  @media only screen and (max-width: 320px) {
   .carousel-inner{

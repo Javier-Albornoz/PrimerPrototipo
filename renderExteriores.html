@@ -18,11 +18,15 @@
     <link rel="shortcut icon" href="iconos/logo_2_c.ico" type="image/x-icon">
 <!--Bootstrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+    <!--iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
    <!--CSS--> 
     <link rel="stylesheet" href="css/style.css">
+
+   <!--JS-->
+   <script src="js/script.js" defer></script>
    
-    <title>Renders Interiores</title>
+    <title>Renders Exteriores</title>
        
 </head>
 <body>
@@ -39,13 +43,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="index.html#quienesSomos">Quienes Somos</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    Renders
                   </a>
                   <ul class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdownMenuLink">
@@ -64,55 +68,59 @@
             </div>
           </div>
         </nav>
-
+ 
       </header>
          <!--fin header-->
+         <div class="overlay">
+           <div class="slideshow">
+             <span class="btn_cerrar">&times;</span>
+             <div class="botones adelante">
+               <i class="mdi mdi-arrow-right-circle-outline"></i>
+             </div>
+             <div class="botones atras">
+               <i class="mdi mdi-arrow-left-circle-outline"></i>
+             </div>
+              <img src="" alt="" id="img_slideshow">
+           </div>
+         </div>
+         <h2 class="h2ext text-center">Renders Exteriores</h2>
+         
+         <section class="galeria">
+           <div class="columna">
+            <img src="images/12.webp" alt="render arquitectonico facultad" data-img-mostrar="0">
+            <img src="images/1.webp" alt="render complejo habitacional" data-img-mostrar="1">
+            <img src="images/10.webp" alt="render centro de terapia" data-img-mostrar="2">
+            <img src="images/11.webp" alt="render patio interno block habitacional" data-img-mostrar="3">
+           </div>
+           <div class="columna">
+            <img src="images/5.webp" alt="ender exterior centro comercial" data-img-mostrar="4">
+            <img src="images/2.webp" alt="render complejo habitacional frente" data-img-mostrar="5">
+            <img src="images/3.webp" alt="render estacionamiento de anfiteatro auto rojo" data-img-mostrar="6">
+            <img src="images/4.webp" alt="render salon de exposicion" data-img-mostrar="7">
+           </div>
+           <div class="columna">
+            <img src="images/background.webp" alt="render paisajista ocaso" data-img-mostrar="8">
+            <img src="images/6.webp" alt="render patio interno complejo habitacional" data-img-mostrar="9">
+            <img src="images/7.webp" alt="render jardin seco" data-img-mostrar="10">
+            <img src="images/8.webp" alt="render maqueta edifico" data-img-mostrar="11">
+           </div>
+           <div class="columna">
+            <img src="images/9.webp" alt="render maqueta edifio axonometrica" data-img-mostrar="12">
+            <img src="images/blog.webp" alt="render ingreso" data-img-mostrar="13">
+            <img src="images/9.webp" alt="render maqueta edifio axonometrica" data-img-mostrar="14">
+            <img src="images/blog.webp" alt="render ingreso" data-img-mostrar="15">
+           </div>
+           <div class="columna">
+            <img src="images/9.webp" alt="render maqueta edifio axonometrica" data-img-mostrar="16">
+            <img src="images/blog.webp" alt="render ingreso" data-img-mostrar="17">
+            <img src="images/9.webp" alt="render maqueta edifio axonometrica" data-img-mostrar="18">
+            <img src="images/blog.webp" alt="render ingreso" data-img-mostrar="19">
+           </div>
 
-         <section class="rendersExteriores">
-          <div>
-            <img src="images/12.webp" alt="render arquitectonico facultad">
-          </div>
-          <div>
-            <img src="images/1.webp" alt="render complejo habitacional">
-          </div>
-          <div>
-           <img src="images/10.webp" alt="render centro de terapia">
-          </div>
-          <div>
-            <img src="images/11.webp" alt="render patio interno block habitacional">
-          </div>
-          <div>
-            <img src="images/5.webp" alt="ender exterior centro comercial">
-          </div>
-          <div>
-            <img src="images/2.webp" alt="render complejo habitacional frente">
-          </div>
-          <div>
-            <img src="images/3.webp" alt="render estacionamiento de anfiteatro auto rojo">
-          </div>
-          <div>
-            <img src="images/4.webp" alt="render salon de exposicion">
-          </div>
-          <div>
-             <img src="images/background.webp" alt="render paisajista ocaso">
-          </div>
-          <div>
-            <img src="images/6.webp" alt="render patio interno complejo habitacional">
-          </div>
-          <div>
-            <img src="images/7.webp" alt="render jardin seco">
-          </div>
-          <div>
-            <img src="images/8.webp" alt="render maqueta edifico">
-          </div>
-          <div>
-             <img src="images/9.webp" alt="render maqueta edifio axonometrica">
-          </div>
-          <div>
-            <img src="images/blog.webp" alt="render ingreso">
-          </div>
-          <div></div>
-        </section>
+         </section>
+
+         
+
 
 <!--Inicio footer-->
         <footer class="foot">

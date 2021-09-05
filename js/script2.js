@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let imagenes = [
         {img: 'images/a.webp'},
         {img: 'images/b.webp'},
-        {img: 'images/c.webp'},
+        {img: 'images/cc.webp'},
         {img: 'images/D.webp'},
         {img: 'images/e.webp'},
         {img: 'images/f.webp'},

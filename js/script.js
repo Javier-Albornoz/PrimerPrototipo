@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    let imagenes = [
+    let imagenes1 = [
         {img: 'images/12.webp'},
         {img: 'images/1.webp'},
         {img: 'images/10.webp'},
@@ -20,8 +20,45 @@ document.addEventListener('DOMContentLoaded', function () {
         {img: 'images/17.webp'},
         {img: 'images/18.webp'},
         {img: 'images/19.webp'}
-
     ]
+
+    let imagenes2 = [
+        {img: 'images/a.webp'},
+        {img: 'images/b.webp'},
+        {img: 'images/cc.webp'},
+        {img: 'images/D.webp'},
+        {img: 'images/e.webp'},
+        {img: 'images/f.webp'},
+        {img: 'images/g.webp'},
+        {img: 'images/h.webp'},
+        {img: 'images/i.webp'},
+        {img: 'images/j.webp'},
+        {img: 'images/k.webp'},
+        {img: 'images/l.webp'},
+        {img: 'images/m.webp'},
+        {img: 'images/n.webp'},
+        {img: 'images/o.webp'},
+        {img: 'images/p.webp'},
+        {img: 'images/q.webp'},
+        {img: 'images/r.webp'},
+        {img: 'images/s.webp'},
+        {img: 'images/t.webp'}
+    ]
+
+    let galeria = document.getElementsByTagName("H2");
+
+    if(galeria[0].innerHTML.toLowerCase() == "renders exteriores") 
+    {
+        galerias(imagenes1);
+    }
+    else{
+        galerias(imagenes2);
+    }
+
+    
+})
+
+function galerias(imagenes){
     let contador = 0
     const contenedor = document.querySelector('.slideshow')
     const overlay = document.querySelector('.overlay')
@@ -64,4 +101,4 @@ document.addEventListener('DOMContentLoaded', function () {
         overlay.style.opacity = 0
         overlay.style.visibility = 'hidden'
     })
-})
+}

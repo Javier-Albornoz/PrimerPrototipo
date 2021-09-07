@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Web Developer on coderhouse**
 
-- 📫 How to reach me **javix@gmail.com**
+- 📫 How to reach me **javix781@gmail.com**
 
 
 <h3 align="left">Languages and Tools:</h3>

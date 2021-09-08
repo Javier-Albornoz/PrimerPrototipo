@@ -75,11 +75,18 @@ h1 {
 
  @media only screen and (max-width: 320px) {
   .carousel-inner{
-    height: auto;}
+    height: auto;
+    }
+   .Nosotros {
+     background-image: url(../images/17.webp);
+   } 
  }
  @media only screen and (min-width: 321px) and (max-width: 768px) {
   .carousel-inner{
     height: auto;}
+    .Nosotros {
+      background-image: url(../images/17.webp);
+    } 
  }
  @media only screen and (min-width: 769px)  and (max-width: 1780px) {
   .carousel-inner{

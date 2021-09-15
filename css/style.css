@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
 * {
@@ -29,6 +30,27 @@ body {
 }
 
 /*Fin header*/
+/* inicio barra de navegación*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  width: 8px;
+  background: black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background: #ff0000;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #740000;
+}
+
+/*fin barra de navegación*/
 .Galeria-texto-fotos {
   display: flex;
   background-color: #740000;

@@ -2,6 +2,26 @@
 @import '../base/displays';
 @import '../base/listaColores';
 @import '../base/mixins';
+/* inicio barra de navegación*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  width: 8px;
+  background: rgba(0,0,0,1);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background: #ff0000;
+  border-radius: 4px;
+    
+  &:hover {
+    background: #740000;
+  }
+}
+
+/*fin barra de navegación*/
 
 .Galeria-texto-fotos {display: $display;
     background-color:nth( $listaColores, 2) ;
@@ -11,6 +31,7 @@
                            justify-content: $aling;
                            flex-direction: column;}
 }      
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   padding-right:0;
   padding-left:0;
